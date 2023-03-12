@@ -19,3 +19,5 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     BayesFactor
+URL: https://github.com/JeffreyRStevens/apastat
+BugReports: https://github.com/JeffreyRStevens/apastat/issues
