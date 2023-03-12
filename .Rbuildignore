@@ -1,4 +1,5 @@
-^apamd\.Rproj$
+^apastat\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
 ^README\.Rmd$
+^rstudio$

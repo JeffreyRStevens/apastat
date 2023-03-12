@@ -51,7 +51,7 @@ format_p <- function(x, pdigits = 3, pzero = FALSE) {
     if (pzero) {
       pvalue <- format_num(x, digits = pdigits)
     } else {
-      pvalue <- sub("0.", ".", format(x, digits = pdigits))
+      pvalue <- sub("0.", ".", format_num(x, digits = pdigits))
     }
     paste0("_p_ = ", pvalue)
   }
