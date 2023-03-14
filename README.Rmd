@@ -54,10 +54,10 @@ inline R Markdown code to generate the results.
 
 #### Code
 `` `The temperature for the two beavers was highly correlated (`r
-apa_ttest(beavers_corr, digits = 2)`). ``
+apa_corr(beavers_corr, digits = 2)`). ``
 
 #### Output
-The temperature for the two beavers was highly correlated (`r apa_ttest(beavers_corr, digits = 2)`).
+The temperature for the two beavers was highly correlated (`r apa_corr(beavers_corr, digits = 2)`).
 
 
 ## Citation
